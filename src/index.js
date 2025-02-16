@@ -1,0 +1,1 @@
+export { default as DualVue } from './components/DualVue';

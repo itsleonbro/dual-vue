@@ -1,0 +1,10 @@
+{
+  "name": "dual-vue",
+  "version": "0.1.0",
+  "main": "dist/dual-vue.umd.js",
+  "module": "dist/dual-vue.es.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  }
+}
