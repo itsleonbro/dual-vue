@@ -1,6 +1,6 @@
 {
   "name": "dualvue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React library to compare two images with a slider",
   "repository": {
     "type": "git",
