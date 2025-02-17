@@ -14,14 +14,12 @@ function App() {
       {/* basic usage with defaults */}
       <DualVue firstImage={firstImage} secondImage={secondImage} />
       {/* custom dimensions */}
-
       <DualVue
         firstImage={firstImage}
         secondImage={secondImage}
         width="1000px"
         height="300px"
       />
-
       {/* with additional styles */}
       <DualVue
         firstImage={firstImage}
