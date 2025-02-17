@@ -2,6 +2,10 @@
   "name": "dualvue",
   "version": "1.0.2",
   "description": "A React library to compare two images with a slider",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsleonbro/dual-vue"
+  },
   "main": "dist/dualvue.umd.js",
   "module": "dist/dualvue.es.js",
   "files": [
