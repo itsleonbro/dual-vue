@@ -1,6 +1,6 @@
 {
   "name": "dualvue",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React library to compare two images with a slider",
   "main": "dist/dualvue.umd.js",
   "module": "dist/dualvue.es.js",
@@ -15,7 +15,18 @@
     "react",
     "image-comparison",
     "slider",
-    "before-after"
+    "before-after",
+    "comparison-slider",
+    "image-slider",
+    "image-diff",
+    "image-difference",
+    "compare-images",
+    "visual-comparison",
+    "photo-comparison",
+    "before-after-slider",
+    "image-viewer",
+    "react-component",
+    "ui-component"
   ],
   "author": "Leon Hlabathi",
   "license": "MIT",

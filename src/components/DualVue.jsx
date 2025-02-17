@@ -9,6 +9,10 @@ const DualVue = ({
   sliderColor = "white",
   sliderWidth = 2,
   buttonSize = 40,
+  width = "800px",
+  height = "400px",
+  className = "",
+  style = {},
 }) => {
   const [position, setPosition] = useState(initialPosition);
   const [isLoading, setIsLoading] = useState(true);
@@ -104,7 +108,13 @@ const DualVue = ({
   return (
     <div
       ref={containerRef}
-      className="dualvue-container"
+      className={`dualvue-container ${className}`}
+      style={{
+        width,
+        height,
+        margin: "0 auto",
+        ...style,
+      }}
       onMouseMove={handleMove}
       onMouseUp={stopDragging}
       onMouseLeave={stopDragging}
@@ -168,6 +178,10 @@ DualVue.propTypes = {
   sliderColor: PropTypes.string,
   sliderWidth: PropTypes.number,
   buttonSize: PropTypes.number,
+  width: PropTypes.string,
+  height: PropTypes.string,
+  className: PropTypes.string,
+  style: PropTypes.object,
 };
 
 export default DualVue;
