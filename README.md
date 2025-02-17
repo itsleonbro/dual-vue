@@ -10,10 +10,16 @@ npm install dualvue
 
 ## Usage
 
-```jsx
-import { DualVue } from 'dualvue';
+### Import
 
-{/* Basic usage with defaults (800x400px) */}
+```jsx
+import { DualVue } from "dualvue";
+import "dualvue/dist/style.css"; // Don't forget to import the styles
+```
+
+### Basic usage with defaults
+
+```jsx
 function BasicExample() {
   return (
     <DualVue
@@ -22,8 +28,11 @@ function BasicExample() {
     />
   );
 }
+```
 
-{/* Custom styling example */}
+### Custom styling example
+
+```jsx
 function CustomExample() {
   return (
     <DualVue
@@ -31,7 +40,7 @@ function CustomExample() {
       secondImage="path/to/second/image.jpg"
       width="1000px"
       height="600px"
-      style={{ border: '1px solid #ccc' }}
+      style={{ border: "1px solid #ccc" }}
       className="custom-class"
     />
   );
